@@ -28,13 +28,13 @@ if __name__ == '__main__':
         "macbook": "https://tiki.vn/search?q=macbook"
     }
 
-    RAN_NUM_PAGE = [1, 1] # điền số trang
+    RAN_NUM_PAGE = [1, 2] # điền số trang
 
     product_ids = []
 
     for product_category in dict_product_category:
         for num in range(RAN_NUM_PAGE[0], RAN_NUM_PAGE[1] + 1):
-            driver.get(dict_product_category[product_category] + "?page=" + str(num))
+            driver.get(dict_product_category[product_category] + "&page=" + str(num))
             time.sleep(3)
             all_product_per_page = driver.find_elements(By.CLASS_NAME, "product-item")
             for product in all_product_per_page:
