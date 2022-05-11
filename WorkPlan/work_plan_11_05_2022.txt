@@ -1,0 +1,11 @@
+11/05/2022
+Kế hoạch làm việc:
++ Họp tracking tiến độ làm bài tập gk và cuối kì
++ Bàn về công việc tuần tiếp theo (tiếp tục crawl dữ liệu và hoàn thiện bài tập giữa kì)
+
+Phân công công việc:
+Thắng: slide amazone redshift + crawl dữ liệu 
+Thanh: hoàn thiện docs + crawl dữ liệu
+Hoàng Sơn + Thái Sơn: slide + hoàn thiện docs + tiếp tục crawl dữ liệu
+
+Dự kiến crawl (6k records)
