@@ -1,4 +1,3 @@
-from math import prod
 import time
 import requests
 from selenium import webdriver
@@ -42,7 +41,7 @@ if __name__ == '__main__':
 
     records = 0
 
-    with open('/home/sonnh/Documents/python/Crawler/Tiki_Products.csv', 'a+', newline='',encoding='utf-8') as f:
+    with open('/home/sonnh/Documents/THDL/Data-Integration-20212/CrawlData/Tiki/Tiki_Products.csv', 'a+', newline='',encoding='utf-8') as f:
         csv_writer = writer(f)
         for ids in tqdm(product_ids):
             url = "https://tiki.vn/api/v2/products/"+str(ids)
