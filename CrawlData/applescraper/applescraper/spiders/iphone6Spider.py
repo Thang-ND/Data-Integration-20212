@@ -3,7 +3,8 @@ import scrapy
 
 class IphoneScraper(scrapy.Spider):
     name = 'didongmango'
-    start_urls = ['https://didongmango.com/iphone-pc49.html']
+    start_urls = ['https://didongmango.com/iphone-pc49.html',
+    'https://didongmango.com/iphone-pc49-page2.html']
 
     def parse(self, response):
         phone_links = response.xpath('//div[@class="item"]/div/figure/a/@href').getall()
