@@ -1,0 +1,10 @@
+Work plan 18-5-2022
+Họp định kì hàng tuần:
+Báo cáo tiến độ công việc làm tài liệu và slide trinh bày.
+Crawl dữ liệu phục vụ cho bài tập lớn cuối kì.
+
+Công việc tuần sau: 
+Tập trung hoàn thành báo cáo cũng như slide + demo của hệ thống data warehouse
+* Amazon Redshift
+* Snowflake
+
