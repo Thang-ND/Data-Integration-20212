@@ -1,0 +1,7 @@
+Work plan 15/06/2022
+Báo cáo tiến độ làm bài tập lớn 
+Tìm hiểu công nghệ sử dụng cho việc lưu trữ 
+Phân chia công việc cho các thành viên trong nhóm: 
+ + Thắng: Đối sánh lược đồ 
+ + Hoàng Sơn, Thai Sơn : Định nghĩa lược đồ chung và tiền xử lý dữ liệ.
+ + Thanh : Triển khai hệ thống trên docker.
