@@ -1,0 +1,2057 @@
+[
+  {
+    "id": 29523062,
+    "name": "IPAD 3 WIFI / 3G WIFI 64GB",
+    "category_path": "ipad-3-wifi-3g-wifi-64gb-29523062.html",
+    "image": "https://media3.scdn.vn/img4/2020/05_11/cNUVXIuKWma4Kbh8Mujk_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3500000,
+    "default_price_max": 3500000,
+    "sale_price_min": 1760000,
+    "sale_price_max": 2250000,
+    "sale_percent": 50,
+    "sold": 114,
+    "has_video": true,
+    "seller_admin_id": 47856,
+    "sku_user": "ipad 3 chính hãng",
+    "product_type": 23,
+    "active_event_frame": "mega_voucher",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 47856,
+      "name": "shop phụ kiện chính hãng",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 36,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "mega_voucher",
+        "icon": "https://media3.scdn.vn/img4/2022/04_19/nM9QJbSGqDKA1iWzfdS4.png"
+      },
+      {
+        "position": "bottom",
+        "type": "instant_shipping",
+        "text": "Hoả tốc",
+        "text_color": "#449460",
+        "bg_color": "#f5fbf7",
+        "icon": "https://media3.scdn.vn/img4/2022/04_14/P8X20So6YTrWe466Xr7v.png"
+      }
+    ],
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 25784651,
+    "name": "iPAD 3 16G có 4G WIFI Chính hãng APPLE",
+    "category_path": "ipad-3-16g-co-4g-wifi-chinh-hang-apple-25784651.html",
+    "image": "https://media3.scdn.vn/img4/2021/07_07/uF4N1jkoYi8amtXb7kB7_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3680000,
+    "default_price_max": 3680000,
+    "sale_price_min": 3680000,
+    "sale_price_max": 3680000,
+    "sold": 28,
+    "has_video": true,
+    "seller_admin_id": 435319,
+    "sku_user": "ipad 4 16 gb 4g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 435319,
+      "name": "Viễn Thông Tây Hồ",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 8,
+      "star": 4.8
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "shipping_discount",
+        "text_color": "#14babd",
+        "bg_color": "#e2f6f7",
+        "icon": "https://media3.scdn.vn/img4/2021/10_21/mFcIndYzGOkBpNH6w5oN.png"
+      }
+    ]
+  },
+  {
+    "id": 29522173,
+    "name": "IPAD 3 WIFI 64GB",
+    "category_path": "ipad-3-wifi-64gb-29522173.html",
+    "image": "https://media3.scdn.vn/img4/2022/05_10/8IImCg7lx84Z2A6fZwfh_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3500005,
+    "default_price_max": 3500005,
+    "sale_price_min": 1760000,
+    "sale_price_max": 2200000,
+    "sale_percent": 50,
+    "sold": 39,
+    "has_video": true,
+    "seller_admin_id": 47856,
+    "sku_user": "ipad 3-chính hãng",
+    "product_type": 23,
+    "active_event_frame": "mega_voucher",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 47856,
+      "name": "shop phụ kiện chính hãng",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 10,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "mega_voucher",
+        "icon": "https://media3.scdn.vn/img4/2022/04_19/nM9QJbSGqDKA1iWzfdS4.png"
+      },
+      {
+        "position": "bottom",
+        "type": "instant_shipping",
+        "text": "Hoả tốc",
+        "text_color": "#449460",
+        "bg_color": "#f5fbf7",
+        "icon": "https://media3.scdn.vn/img4/2022/04_14/P8X20So6YTrWe466Xr7v.png"
+      }
+    ],
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 24915817,
+    "name": "ipad mini 1 chính hãng 100%",
+    "category_path": "ipad-mini-1-chinh-hang-100-24915817.html",
+    "image": "https://media3.scdn.vn/img4/2021/12_18/YEp5u718VPyQ2cjklJLR_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 1750000,
+    "default_price_max": 2200000,
+    "sale_price_min": 1750000,
+    "sale_price_max": 2200000,
+    "sold": 5,
+    "discount_app": 2,
+    "seller_admin_id": 709687,
+    "sku_user": "mini116",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 709687,
+      "name": "dienthoaire333",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ngãi",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 2,
+      "star": 3
+    },
+    "options": {},
+    "Model-split": "IPAD MINI 1",
+    "Status-split": "100%"
+  },
+  {
+    "id": 22103334,
+    "name": "IPad 4 16G wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-16g-wifi-ban-quoc-te-hang-like-new-22103334.html",
+    "image": "https://media3.scdn.vn/img3/2019/9_28/sehEPm_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3200000,
+    "default_price_max": 3200000,
+    "sale_price_min": 3200000,
+    "sale_price_max": 3200000,
+    "sold": 11,
+    "seller_admin_id": 119850,
+    "sku_user": "Ipad 4 16G Wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 119850,
+      "name": "Hucocase",
+      "status": 2,
+      "level": 98,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 18591810,
+    "name": "IPad 4 - 32Gb Only Wifi Quốc tế Zin Đẹp Chính hãng",
+    "category_path": "ipad-4-32gb-only-wifi-quoc-te-zin-dep-chinh-hang-18591810.html",
+    "image": "https://media3.scdn.vn/img3/2019/5_16/ey281L_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3090000,
+    "default_price_max": 3590000,
+    "sale_price_min": 3090000,
+    "sale_price_max": 3590000,
+    "sold": 3,
+    "seller_admin_id": 363126,
+    "sku_user": "Ipad 4 -32Gb Wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "32GB"
+  },
+  {
+    "id": 18590760,
+    "name": "IPad Mini 2 16/32/64/128gb Wifi 4G",
+    "category_path": "ipad-mini-2-163264128gb-wifi-4g-18590760.html",
+    "image": "https://media3.scdn.vn/img4/2020/08_11/AbOxecUqdAinksJADjPg_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3490000,
+    "default_price_max": 3490000,
+    "sale_price_min": 3490000,
+    "sale_price_max": 3490000,
+    "sold": 2,
+    "seller_admin_id": 363126,
+    "sku_user": "Ipad Mini 2",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 1,
+      "star": 3
+    },
+    "options": {},
+    "Model-split": "IPAD MINI 2",
+    "Rom-split": "128GB"
+  },
+  {
+    "id": 62698601,
+    "name": "IPad air wifi / 4G wifi 32GB",
+    "category_path": "ipad-air-wifi-4g-wifi-32gb-62698601.html",
+    "image": "https://media3.scdn.vn/img4/2021/11_06/nuRQsQUraZ74RkKamOnG_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 7500002,
+    "default_price_max": 7500011,
+    "sale_price_min": 3850000,
+    "sale_price_max": 3950000,
+    "sale_percent": 49,
+    "sold": 4,
+    "has_video": true,
+    "seller_admin_id": 109298,
+    "sku_user": "2356_62698601",
+    "product_type": 23,
+    "active_event_frame": "mega_voucher",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 109298,
+      "name": "shop điện thoại hải đăng",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 4,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "mega_voucher",
+        "icon": "https://media3.scdn.vn/img4/2022/04_19/nM9QJbSGqDKA1iWzfdS4.png"
+      },
+      {
+        "position": "bottom",
+        "type": "instant_shipping",
+        "text": "Hoả tốc",
+        "text_color": "#449460",
+        "bg_color": "#f5fbf7",
+        "icon": "https://media3.scdn.vn/img4/2022/04_14/P8X20So6YTrWe466Xr7v.png"
+      }
+    ],
+    "Rom-split": "32GB"
+  },
+  {
+    "id": 18764099,
+    "name": "IPad Gen 5 2017 - 32Gb Wifi 4G Quốc tế",
+    "category_path": "ipad-gen-5-2017-32gb-wifi-4g-quoc-te-18764099.html",
+    "image": "https://media3.scdn.vn/img4/2020/08_11/c4FOs8zVCPn1JMWxRLHP_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 6490000,
+    "default_price_max": 6590000,
+    "sale_price_min": 6490000,
+    "sale_price_max": 6590000,
+    "sold": 3,
+    "seller_admin_id": 363126,
+    "sku_user": "IPad 2017",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "Rom-split": "32GB"
+  },
+  {
+    "id": 19116385,
+    "name": "iPad Mini 2 - 16Gb Bản (Wifi + 4G) Chính Hãng APPLE - Zin Đẹp 99% - Màn hình 7.9inch Rentina sắc nét - IOS 12",
+    "category_path": "ipad-mini-2-16gb-ban-wifi-4g-chinh-hang-apple-zin-dep-99-man-hinh-79inch-rentina-sac-net-ios-12-19116385.html",
+    "image": "https://media3.scdn.vn/img4/2021/07_02/qCxUx7x8z3AoBRcwc5yF_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4290000,
+    "default_price_max": 4290000,
+    "sale_price_min": 4290000,
+    "sale_price_max": 4290000,
+    "sold": 6,
+    "seller_admin_id": 306594,
+    "sku_user": "IPad Mini 2 16Gb",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 306594,
+      "name": "Bé Hà Store",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD MINI 2",
+    "Rom-split": "16GB",
+    "Ram-split": " 16GB",
+    "Status-split": "99%"
+  },
+  {
+    "id": 29084118,
+    "name": "IPad 4 16G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-16g-4g-cu-wifi-ban-quoc-te-hang-like-new-29084118.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/TvwNur_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3400000,
+    "default_price_max": 3400000,
+    "sale_price_min": 3400000,
+    "sale_price_max": 3400000,
+    "sold": 7,
+    "seller_admin_id": 413456,
+    "sku_user": "IPad 4 16g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 32985093,
+    "name": "ipad 4 chính hãng wifi +3g",
+    "category_path": "ipad-4-chinh-hang-wifi-3g-32985093.html",
+    "image": "https://media3.scdn.vn/img4/2021/07_07/drAN2SrwRiMEEEmIUUvY_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3680000,
+    "default_price_max": 3680000,
+    "sale_price_min": 1250000,
+    "sale_price_max": 1250000,
+    "sale_percent": 67,
+    "sold": 5,
+    "seller_admin_id": 465005,
+    "sku_user": "ipad 4 chính hãng wifi +3g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 465005,
+      "name": "THẾ GIỚI ĐIỆN THOẠI 1",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "shipping_discount",
+        "text_color": "#14babd",
+        "bg_color": "#e2f6f7",
+        "icon": "https://media3.scdn.vn/img4/2021/10_21/mFcIndYzGOkBpNH6w5oN.png"
+      }
+    ]
+  },
+  {
+    "id": 20873165,
+    "name": "IPad 4 64G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-64g-4g-cu-wifi-ban-quoc-te-hang-like-new-20873165.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/0xcuTw_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4300000,
+    "default_price_max": 4300000,
+    "sale_price_min": 4300000,
+    "sale_price_max": 4300000,
+    "sold": 24,
+    "seller_admin_id": 119850,
+    "sku_user": "Ipad 4 64G",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 119850,
+      "name": "Hucocase",
+      "status": 2,
+      "level": 98,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {
+      "total": 2,
+      "star": 3
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 18619201,
+    "name": "IPad 4 - 64Gb Wifi",
+    "category_path": "ipad-4-64gb-wifi-18619201.html",
+    "image": "https://media3.scdn.vn/img3/2019/5_17/HwleD0_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3490000,
+    "default_price_max": 3590000,
+    "sale_price_min": 3490000,
+    "sale_price_max": 3590000,
+    "sold": 6,
+    "seller_admin_id": 363126,
+    "sku_user": "IPad 4 - 64Gb WIFI 4G",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 18591471,
+    "name": "IPad Mini 3 - 64G/128Gb Wifi 4G Quốc Tế",
+    "category_path": "ipad-mini-3-64g128gb-wifi-4g-quoc-te-18591471.html",
+    "image": "https://media3.scdn.vn/img4/2020/08_11/1puiEn14bl1Gs2ADuhbh_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4890000,
+    "default_price_max": 4990000,
+    "sale_price_min": 4890000,
+    "sale_price_max": 4990000,
+    "sold": 4,
+    "seller_admin_id": 363126,
+    "sku_user": "IPad Mini 3 -64Gb",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 3",
+    "Rom-split": "128GB"
+  },
+  {
+    "id": 38476230,
+    "name": "ipad 3 chinh hãng máy quốc tế 100%",
+    "category_path": "ipad-3-chinh-hang-may-quoc-te-100-38476230.html",
+    "image": "https://media3.scdn.vn/img4/2020/12_18/aAxd8UoqoCgqggZ7MYLE_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 1750000,
+    "default_price_max": 2700000,
+    "sale_price_min": 1750000,
+    "sale_price_max": 2700000,
+    "sold": 10,
+    "has_video": true,
+    "discount_app": 2,
+    "seller_admin_id": 804493,
+    "sku_user": "ipad3",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 804493,
+      "name": "Liên hcmc",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ngãi",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "Status-split": "100%"
+  },
+  {
+    "id": 20875566,
+    "name": "IPad 4 128G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-128g-4g-cu-wifi-ban-quoc-te-hang-like-new-20875566.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/0xcuTw_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4990000,
+    "default_price_max": 4990000,
+    "sale_price_min": 4990000,
+    "sale_price_max": 4990000,
+    "sold": 5,
+    "seller_admin_id": 119850,
+    "sku_user": "Ipad 4 128G",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 119850,
+      "name": "Hucocase",
+      "status": 2,
+      "level": 98,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 20766698,
+    "name": "IPad mini 3 16g Wifi bản quốc tế hàng like New",
+    "category_path": "ipad-mini-3-16g-wifi-ban-quoc-te-hang-like-new-20766698.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/bcMGf6_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4003000,
+    "default_price_max": 4003000,
+    "sale_price_min": 4003000,
+    "sale_price_max": 4003000,
+    "sold": 1,
+    "seller_admin_id": 119850,
+    "sku_user": "Ipad mini 3 16g wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 119850,
+      "name": "Hucocase",
+      "status": 2,
+      "level": 98,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD MINI 3"
+  },
+  {
+    "id": 31326981,
+    "name": "IPad mini 3 16G 4G+Wifi bản quốc tế hàng like New",
+    "category_path": "ipad-mini-3-16g-4g-wifi-ban-quoc-te-hang-like-new-31326981.html",
+    "image": "https://media3.scdn.vn/img4/2020/07_06/022v3DedK8d6QuPzs5zt_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4800000,
+    "default_price_max": 4800000,
+    "sale_price_min": 4800000,
+    "sale_price_max": 4800000,
+    "seller_admin_id": 119850,
+    "sku_user": "IPad mini 3 4g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 119850,
+      "name": "Hucocase",
+      "status": 2,
+      "level": 98,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD MINI 3"
+  },
+  {
+    "id": 18590950,
+    "name": "IPad Mini 2 - 16 Wifi 4G",
+    "category_path": "ipad-mini-2-16-wifi-4g-18590950.html",
+    "image": "https://media3.scdn.vn/img4/2020/08_11/vy7Yu2eJnhi9Dm6DV8qx_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3390000,
+    "default_price_max": 3490000,
+    "sale_price_min": 3390000,
+    "sale_price_max": 3490000,
+    "sold": 3,
+    "seller_admin_id": 363126,
+    "sku_user": "IPad Mini 2-32Gb",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 29085044,
+    "name": "IPad 4 32G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-32g-4g-cu-wifi-ban-quoc-te-hang-like-new-29085044.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/0xcuTw_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3750000,
+    "default_price_max": 3750000,
+    "sale_price_min": 3750000,
+    "sale_price_max": 3750000,
+    "sold": 2,
+    "seller_admin_id": 413456,
+    "sku_user": "IPad 4 32g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 29084523,
+    "name": "IPad mini 2 16g 3g wifi 16G quốc tế hàng like New",
+    "category_path": "ipad-mini-2-16g-3g-wifi-16g-quoc-te-hang-like-new-29084523.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/oTGD68_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3900000,
+    "default_price_max": 3900000,
+    "sale_price_min": 3900000,
+    "sale_price_max": 3900000,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad mini 2 3g",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 70115408,
+    "name": "IPad 4 16G wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-16g-wifi-ban-quoc-te-hang-like-new-70115408.html",
+    "image": "https://media3.scdn.vn/img3/2019/9_28/sehEPm_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3200000,
+    "default_price_max": 3200000,
+    "sale_price_min": 3200000,
+    "sale_price_max": 3200000,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad 4 16G Wifi..",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 70117771,
+    "name": "IPad mini 2 16g wifi 16G quốc tế hàng like New",
+    "category_path": "ipad-mini-2-16g-wifi-16g-quoc-te-hang-like-new-70117771.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/oTGD68_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3790000,
+    "default_price_max": 3790000,
+    "sale_price_min": 3790000,
+    "sale_price_max": 3790000,
+    "seller_admin_id": 413456,
+    "sku_user": "ipad mini 2 wifi..",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 29085392,
+    "name": "IPad mini 2 16g wifi 16G quốc tế hàng like New",
+    "category_path": "ipad-mini-2-16g-wifi-16g-quoc-te-hang-like-new-29085392.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/oTGD68_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3790000,
+    "default_price_max": 3790000,
+    "sale_price_min": 3790000,
+    "sale_price_max": 3790000,
+    "seller_admin_id": 413456,
+    "sku_user": "ipad mini 2 wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 50655978,
+    "name": "Ipad air chất lượng suất xắc",
+    "category_path": "ipad-air-chat-luong-suat-xac-50655978.html",
+    "image": "https://media3.scdn.vn/img4/2021/09_25/Y2gkd5zblGJGosdiAbOx_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3850000,
+    "default_price_max": 3850000,
+    "sale_price_min": 3850000,
+    "sale_price_max": 3850000,
+    "sold": 1,
+    "seller_admin_id": 853062,
+    "sku_user": "Ipad air",
+    "product_type": 23,
+    "like_counter": 1,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 853062,
+      "name": "michi shop",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 29084089,
+    "name": "IPad 4 64G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-64g-4g-cu-wifi-ban-quoc-te-hang-like-new-29084089.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/0xcuTw_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4050000,
+    "default_price_max": 4050000,
+    "sale_price_min": 4050000,
+    "sale_price_max": 4050000,
+    "sold": 2,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad 4 64G",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 70131843,
+    "name": "IPad mini 3 16G 4G+Wifi bản quốc tế hàng like New",
+    "category_path": "ipad-mini-3-16g-4g-wifi-ban-quoc-te-hang-like-new-70131843.html",
+    "image": "https://media3.scdn.vn/img4/2020/07_06/022v3DedK8d6QuPzs5zt_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4800000,
+    "default_price_max": 4800000,
+    "sale_price_min": 4800000,
+    "sale_price_max": 4800000,
+    "seller_admin_id": 413456,
+    "sku_user": "IPad mini 3 4g..",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 3"
+  },
+  {
+    "id": 6706159,
+    "name": "iPad Air Wifi 4G + 3G 16GB màu đen, trắng",
+    "category_path": "ipad-air-wifi-4g-3g-16gb-mau-den-trang-6706159.html",
+    "image": "https://media3.scdn.vn/img2/2017/8_17/LaIBxP_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 6070000,
+    "default_price_max": 6070000,
+    "sale_price_min": 6070000,
+    "sale_price_max": 6070000,
+    "sold": 3,
+    "seller_admin_id": 222330,
+    "sku_user": "iPad Air Wifi 4G + 3G 16GB",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 222330,
+      "name": "Laptop Nhất Long",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Color-split": "TRẮNG",
+    "Rom-split": "16GB",
+    "Ram-split": " 16GB"
+  },
+  {
+    "id": 18591671,
+    "name": "IPAD 4 ZIN",
+    "category_path": "ipad-4-zin-18591671.html",
+    "image": "https://media3.scdn.vn/img3/2019/5_16/k1RXYv_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 2490000,
+    "default_price_max": 2590000,
+    "sale_price_min": 2490000,
+    "sale_price_max": 2590000,
+    "sold": 1,
+    "seller_admin_id": 363126,
+    "sku_user": "Ipad 4 Wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 51824363,
+    "name": "IPad mini 2 máy zin chính hãng",
+    "category_path": "ipad-mini-2-may-zin-chinh-hang-51824363.html",
+    "image": "https://media3.scdn.vn/img4/2021/10_10/V6dkAHYbeBwWwWWjCjpm_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 2900000,
+    "default_price_max": 2900000,
+    "sale_price_min": 2900000,
+    "sale_price_max": 2900000,
+    "sold": 1,
+    "seller_admin_id": 853062,
+    "sku_user": "IPad mini 2",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 853062,
+      "name": "michi shop",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 6706215,
+    "name": "iPad. Air Wifi 4G + 3G 64GB màu đen, trắng",
+    "category_path": "ipad-air-wifi-4g-3g-64gb-mau-den-trang-6706215.html",
+    "image": "https://media3.scdn.vn/img2/2017/8_17/zp6v5e_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 7370000,
+    "default_price_max": 7370000,
+    "sale_price_min": 7370000,
+    "sale_price_max": 7370000,
+    "seller_admin_id": 222330,
+    "sku_user": "iPad. Air Wifi 4G + 3G 64GB",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 222330,
+      "name": "Laptop Nhất Long",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Color-split": "TRẮNG",
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 6706556,
+    "name": "iPad Air 2 Wifi 4G + 3G 64GB màu đen, trắng",
+    "category_path": "ipad-air-2-wifi-4g-3g-64gb-mau-den-trang-6706556.html",
+    "image": "https://media3.scdn.vn/img2/2017/8_17/920SKA_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 9270000,
+    "default_price_max": 9270000,
+    "sale_price_min": 9270000,
+    "sale_price_max": 9270000,
+    "seller_admin_id": 222330,
+    "sku_user": "iPad Air 2 Wifi 4G + 3G 64GB",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 222330,
+      "name": "Laptop Nhất Long",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Color-split": "TRẮNG",
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 70116849,
+    "name": "IPad 4 16G 4G cũ+wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-16g-4g-cu-wifi-ban-quoc-te-hang-like-new-70116849.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_19/TvwNur_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3400000,
+    "default_price_max": 3400000,
+    "sale_price_min": 3332000,
+    "sale_price_max": 3332000,
+    "sale_percent": 2,
+    "seller_admin_id": 413456,
+    "sku_user": "IPad 4 16g..",
+    "product_type": 23,
+    "active_event_frame": "sale_event",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "sale_event",
+        "icon": "https://media3.scdn.vn/img4/2022/05_04/kmdXhROFpxHROppDRyHU.png"
+      }
+    ]
+  },
+  {
+    "id": 29085068,
+    "name": "IPad mini 3 16g Wifi bản quốc tế hàng like New",
+    "category_path": "ipad-mini-3-16g-wifi-ban-quoc-te-hang-like-new-29085068.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/bcMGf6_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4300000,
+    "default_price_max": 4300000,
+    "sale_price_min": 4300000,
+    "sale_price_max": 4300000,
+    "sold": 1,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad mini 3 16g wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 3"
+  },
+  {
+    "id": 27625443,
+    "name": "iPad 2018 Gen 6 Wifi 4G Quốc tế Chính hãng",
+    "category_path": "ipad-2018-gen-6-wifi-4g-quoc-te-chinh-hang-27625443.html",
+    "image": "https://media3.scdn.vn/img4/2020/03_20/zQHemhJgN0NPNduPw4s4_simg_de2fe0_250x250_maxb.png",
+    "default_price_min": 8990000,
+    "default_price_max": 8990000,
+    "sale_price_min": 8990000,
+    "sale_price_max": 8990000,
+    "seller_admin_id": 309043,
+    "sku_user": "ipad gen 6",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 309043,
+      "name": "Mobile999",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD 2018"
+  },
+  {
+    "id": 70135593,
+    "name": "IPad mini 3 16g Wifi bản quốc tế hàng like New",
+    "category_path": "ipad-mini-3-16g-wifi-ban-quoc-te-hang-like-new-70135593.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/bcMGf6_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4003000,
+    "default_price_max": 4003000,
+    "sale_price_min": 4003000,
+    "sale_price_max": 4003000,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad mini 3 16g wifi..",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 3"
+  },
+  {
+    "id": 18763615,
+    "name": "IPad Air 2 - 32Gb Wifi + 4G Quốc tế",
+    "category_path": "ipad-air-2-32gb-wifi-4g-quoc-te-18763615.html",
+    "image": "https://media3.scdn.vn/img4/2020/08_11/xMC5vXleKjRLQ0F76deq_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 6090000,
+    "default_price_max": 6190000,
+    "sale_price_min": 6090000,
+    "sale_price_max": 6190000,
+    "seller_admin_id": 363126,
+    "sku_user": "IPad Air 2 32Gb",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 363126,
+      "name": "CHUYÊN MÁY TÍNH BẢNG",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ninh",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "32GB"
+  },
+  {
+    "id": 6705883,
+    "name": "iPad Mini 3 Wifi 4G + 3G 16GB màu đen, trắng,vàng",
+    "category_path": "ipad-mini-3-wifi-4g-3g-16gb-mau-den-trang-vang-6705883.html",
+    "image": "https://media3.scdn.vn/img2/2017/8_17/y7yqTZ_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 5970000,
+    "default_price_max": 5970000,
+    "sale_price_min": 5970000,
+    "sale_price_max": 5970000,
+    "sold": 1,
+    "seller_admin_id": 222330,
+    "sku_user": "iPad Mini 3 Wifi 4G + 3G",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 222330,
+      "name": "Laptop Nhất Long",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Color-split": "VÀNG",
+    "Model-split": "IPAD MINI 3",
+    "Rom-split": "16GB",
+    "Ram-split": " 16GB"
+  },
+  {
+    "id": 29084648,
+    "name": "IPad 4 16G wifi bản quốc tế hàng like new",
+    "category_path": "ipad-4-16g-wifi-ban-quoc-te-hang-like-new-29084648.html",
+    "image": "https://media3.scdn.vn/img3/2019/9_28/sehEPm_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3100000,
+    "default_price_max": 3100000,
+    "sale_price_min": 3100000,
+    "sale_price_max": 3100000,
+    "sold": 1,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad 4 16G Wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 77690882,
+    "name": "Ipad air 2 9.7 inch 16gb  wifi 4G",
+    "category_path": "ipad-air-2-97-inch-16gb-wifi-4g-77690882.html",
+    "image": "https://media3.scdn.vn/img4/2022/04_07/aEcGAMSoUUNJtaKM42Xv_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4500000,
+    "default_price_max": 4500000,
+    "sale_price_min": 4500000,
+    "sale_price_max": 4500000,
+    "seller_admin_id": 152768,
+    "sku_user": "ipad air2 xám",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 152768,
+      "name": "ngoc ty 342 ngo gia tu",
+      "status": 2,
+      "ware_house_region_name": "Ninh Thuận",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Rom-split": "16GB",
+    "Ram-split": " 16GB"
+  },
+  {
+    "id": 7579059,
+    "name": "IPAD 4 4G,WIFI 16G CHÍNH HÃNG",
+    "category_path": "ipad-4-4g-wifi-16g-chinh-hang-7579059.html",
+    "image": "https://media3.scdn.vn/img2/2017/11_1/1GAcf2_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 4799000,
+    "default_price_max": 4799000,
+    "sale_price_min": 4799000,
+    "sale_price_max": 4799000,
+    "seller_admin_id": 129180,
+    "sku_user": "IPAD 4 a",
+    "product_type": 23,
+    "like_counter": 115,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 129180,
+      "name": "Tamshop84",
+      "status": 2,
+      "ware_house_region_name": "TP.HCM",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 48557758,
+    "name": "iPad air 2 đỉnh cao về chất lượng",
+    "category_path": "ipad-air-2-dinh-cao-ve-chat-luong-48557758.html",
+    "image": "https://media3.scdn.vn/img4/2021/08_13/0gawsGfW5Ts3G0hGWcqk_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 5500000,
+    "default_price_max": 5500000,
+    "sale_price_min": 5500000,
+    "sale_price_max": 5500000,
+    "sold": 1,
+    "seller_admin_id": 853062,
+    "sku_user": "iPad air 2 đỉnh cao về chất lượng",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 853062,
+      "name": "michi shop",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 70117777,
+    "name": "IPad mini 2 16g 3g wifi 16G quốc tế hàng like New",
+    "category_path": "ipad-mini-2-16g-3g-wifi-16g-quoc-te-hang-like-new-70117777.html",
+    "image": "https://media3.scdn.vn/img3/2019/8_14/oTGD68_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3900000,
+    "default_price_max": 3900000,
+    "sale_price_min": 3900000,
+    "sale_price_max": 3900000,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad mini 2 3g..",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 48557841,
+    "name": "iPad mini 4",
+    "category_path": "ipad-mini-4-48557841.html",
+    "image": "https://media3.scdn.vn/img4/2021/08_13/ZZkbRRo4Nfxrk7PidmHJ_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 5500000,
+    "default_price_max": 5500000,
+    "sale_price_min": 5500000,
+    "sale_price_max": 5500000,
+    "seller_admin_id": 853062,
+    "sku_user": "iPad mini 4 mới zin chính hãng",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 853062,
+      "name": "michi shop",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 4"
+  },
+  {
+    "id": 45063384,
+    "name": "iPad mini 2 sim 4g",
+    "category_path": "ipad-mini-2-sim-4g-45063384.html",
+    "image": "https://media3.scdn.vn/img4/2021/06_09/9tpAD4iuypmphZBJjS63_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 3250000,
+    "default_price_max": 3250000,
+    "sale_price_min": 3250000,
+    "sale_price_max": 3250000,
+    "seller_admin_id": 853062,
+    "sku_user": "iPad mini 2",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 853062,
+      "name": "michi shop",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 2"
+  },
+  {
+    "id": 23837329,
+    "name": "iPad Gen 5 2017 Wifi 4G Quốc tế Chính hãng",
+    "category_path": "ipad-gen-5-2017-wifi-4g-quoc-te-chinh-hang-23837329.html",
+    "image": "https://media3.scdn.vn/img3/2019/11_21/RgRoKT_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 6990000,
+    "default_price_max": 8590000,
+    "sale_price_min": 6990000,
+    "sale_price_max": 8590000,
+    "sold": 1,
+    "seller_admin_id": 309043,
+    "sku_user": "ipad 2017",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 309043,
+      "name": "Mobile999",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ]
+  },
+  {
+    "id": 68179168,
+    "name": "iPad Gen 6 Wifi - Cấu hình mạnh đáp ứng nhu cầu học tập và giải trí",
+    "category_path": "ipad-gen-6-wifi-cau-hinh-manh-dap-ung-nhu-cau-hoc-tap-va-giai-tri-68179168.html",
+    "image": "https://media3.scdn.vn/img4/2021/11_25/ZtMIPEktqnCmP93ex6Rq_simg_de2fe0_250x250_maxb.png",
+    "default_price_min": 6390000,
+    "default_price_max": 6390000,
+    "sale_price_min": 6390000,
+    "sale_price_max": 6390000,
+    "seller_admin_id": 419720,
+    "sku_user": "2356_68179168",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 419720,
+      "name": "AHStoreND",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "Nam Định",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "shipping_discount",
+        "text_color": "#14babd",
+        "bg_color": "#e2f6f7",
+        "icon": "https://media3.scdn.vn/img4/2021/10_21/mFcIndYzGOkBpNH6w5oN.png"
+      }
+    ]
+  },
+  {
+    "id": 30480917,
+    "name": "IPAD AIR WIFI / 4G WIFI 32GB",
+    "category_path": "ipad-air-wifi-4g-wifi-32gb-30480917.html",
+    "image": "https://media3.scdn.vn/img4/2021/12_06/bzmAzhPBS3V04aJhl6QX_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 7500002,
+    "default_price_max": 7500002,
+    "sale_price_min": 3850000,
+    "sale_price_max": 3950000,
+    "sale_percent": 49,
+    "sold": 9,
+    "has_video": true,
+    "seller_admin_id": 109298,
+    "sku_user": "ipadair4g",
+    "product_type": 23,
+    "active_event_frame": "mega_voucher",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 109298,
+      "name": "shop điện thoại hải đăng",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "mega_voucher",
+        "icon": "https://media3.scdn.vn/img4/2022/04_19/nM9QJbSGqDKA1iWzfdS4.png"
+      },
+      {
+        "position": "bottom",
+        "type": "instant_shipping",
+        "text": "Hoả tốc",
+        "text_color": "#449460",
+        "bg_color": "#f5fbf7",
+        "icon": "https://media3.scdn.vn/img4/2022/04_14/P8X20So6YTrWe466Xr7v.png"
+      }
+    ],
+    "Rom-split": "32GB"
+  },
+  {
+    "id": 72204092,
+    "name": "Ipad Air2 4G wifi 64Gb",
+    "category_path": "ipad-air2-4g-wifi-64gb-72204092.html",
+    "image": "https://media3.scdn.vn/img4/2022/02_13/i7poTRhPeWCq726N1CNt_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 6500000,
+    "default_price_max": 6500000,
+    "sale_price_min": 6500000,
+    "sale_price_max": 6500000,
+    "discount_app": 1,
+    "seller_admin_id": 784857,
+    "sku_user": "2923_72204092",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 784857,
+      "name": "techshop168",
+      "status": 2,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "64GB"
+  },
+  {
+    "id": 83177335,
+    "name": "IPAD MiNi 1",
+    "category_path": "ipad-mini-1-83177335.html",
+    "image": "https://media3.scdn.vn/img4/2022/04_21/QrRyG1U7kl2j8pHLNyWU_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 1234567,
+    "default_price_max": 1234567,
+    "sale_price_min": 1234567,
+    "sale_price_max": 1234567,
+    "has_video": true,
+    "seller_admin_id": 902556,
+    "sku_user": "2923_83177335",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 902556,
+      "name": "Thông Pé",
+      "status": 2,
+      "ware_house_region_name": "Hậu Giang",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 1"
+  },
+  {
+    "id": 46788621,
+    "name": "iPad Pro 2020 11in 256gb -Wi-Fi - Cellular- - MỚI 100- NGUYÊN SEAL- CHƯA ACTIVE",
+    "category_path": "ipad-pro-2020-11in-256gb-wi-fi-cellular-moi-100-nguyen-seal-chua-active-46788621.html",
+    "image": "https://media3.scdn.vn/img4/2021/07_08/sOJUjLWvTIrABGcUs6hh_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 27900000,
+    "default_price_max": 27900000,
+    "sale_price_min": 27900000,
+    "sale_price_max": 27900000,
+    "seller_admin_id": 914030,
+    "sku_user": "3341823449",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 914030,
+      "name": "ThaiduongStore",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "TP.HCM",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "256GB"
+  },
+  {
+    "id": 38476145,
+    "name": "ipad 2 máy quốc tế",
+    "category_path": "ipad-2-may-quoc-te-38476145.html",
+    "image": "https://media3.scdn.vn/img4/2020/12_18/RSMGqsOfD0Mb4VzfKBx5_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 1450000,
+    "default_price_max": 2600000,
+    "sale_price_min": 1450000,
+    "sale_price_max": 2600000,
+    "sold": 7,
+    "discount_app": 2,
+    "seller_admin_id": 804493,
+    "sku_user": "ipad2",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 804493,
+      "name": "Liên hcmc",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ngãi",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 68034338,
+    "name": "Ipad mini 4",
+    "category_path": "ipad-mini-4-68034338.html",
+    "image": "https://media3.scdn.vn/img4/2021/11_20/9jgOBghTcJqBfm6Vm2XF_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 8800000,
+    "default_price_max": 8800000,
+    "sale_price_min": 8800000,
+    "sale_price_max": 8800000,
+    "sold": 2,
+    "seller_admin_id": 939736,
+    "sku_user": "2923_68034338",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 939736,
+      "name": "Vua Phone Việt",
+      "status": 2,
+      "ware_house_region_name": "Hưng Yên",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD MINI 4"
+  },
+  {
+    "id": 70523775,
+    "name": "Ipad Pro 9.7 Wifi 32g",
+    "category_path": "ipad-pro-97-wifi-32g-70523775.html",
+    "image": "https://media3.scdn.vn/img4/2021/12_18/xegAI79XhYttotfPP8LT_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 7500000,
+    "default_price_max": 7500000,
+    "sale_price_min": 7500000,
+    "sale_price_max": 7500000,
+    "sold": 1,
+    "seller_admin_id": 944008,
+    "sku_user": "2923_70523775",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 944008,
+      "name": "TaoKhuyet",
+      "status": 2,
+      "ware_house_region_name": "Hòa Bình",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Model-split": "IPAD PRO 9.7"
+  },
+  {
+    "id": 46788508,
+    "name": "iPad Pro 2020 11in 512GB WIFI HÀNG  MỚI 100- NGUYÊN SEAL- CHƯA ACTIVE",
+    "category_path": "ipad-pro-2020-11in-512gb-wifi-hang-moi-100-nguyen-seal-chua-active-46788508.html",
+    "image": "https://media3.scdn.vn/img4/2021/07_08/sE0NzWnnpvH6AN1D3P4P_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 28000000,
+    "default_price_max": 28000000,
+    "sale_price_min": 28000000,
+    "sale_price_max": 28000000,
+    "seller_admin_id": 914030,
+    "sku_user": "9412595757",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 914030,
+      "name": "ThaiduongStore",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "TP.HCM",
+      "badge_urls": {}
+    },
+    "rated": {},
+    "options": {},
+    "Rom-split": "512GB"
+  },
+  {
+    "id": 33608276,
+    "name": "Máy TÍnh Bảng Apple iPad 10.2\" WIFi - (Gen 7 ) -  3GB/32GB - Hàng Nhập Khẩu",
+    "category_path": "may-tinh-bang-apple-ipad-102-wifi-gen-7-3gb32gb-hang-nhap-khau-33608276.html",
+    "image": "https://media3.scdn.vn/img4/2020/09_14/UvK3Va8lTLrHpw4Meu80_simg_de2fe0_250x250_maxb.png",
+    "default_price_min": 9990000,
+    "default_price_max": 9990000,
+    "sale_price_min": 9990000,
+    "sale_price_max": 9990000,
+    "sold": 148,
+    "seller_admin_id": 680365,
+    "sku_user": "iPad 10.2\\\" 3GB/32GB",
+    "product_type": 23,
+    "like_counter": 40,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 680365,
+      "name": "shop_phone",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "TP.HCM",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 1,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "shipping_discount",
+        "text_color": "#14babd",
+        "bg_color": "#e2f6f7",
+        "icon": "https://media3.scdn.vn/img4/2021/10_21/mFcIndYzGOkBpNH6w5oN.png"
+      },
+      {
+        "position": "bottom",
+        "type": "installment",
+        "text": "Trả góp 0%",
+        "text_color": "#133096",
+        "bg_color": "#f1f3f9",
+        "icon": "https://media3.scdn.vn/img4/2021/08_20/xuKcsLr4kFMaVTktqwCL.png"
+      }
+    ],
+    "Model-split": "IPAD 10.2",
+    "Rom-split": "32GB",
+    "Ram-split": " 3GB"
+  },
+  {
+    "id": 29085016,
+    "name": "Máy tính bảng Ipad Air 2 16G wifi bản quốc tế hàng like New",
+    "category_path": "may-tinh-bang-ipad-air-2-16g-wifi-ban-quoc-te-hang-like-new-29085016.html",
+    "image": "https://media3.scdn.vn/img3/2019/6_22/jx7KUq_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 5950000,
+    "default_price_max": 5950000,
+    "sale_price_min": 5950000,
+    "sale_price_max": 5950000,
+    "sold": 1,
+    "seller_admin_id": 413456,
+    "sku_user": "Ipad AIr 2 16G Wifi",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 413456,
+      "name": "Chi Hà",
+      "status": 2,
+      "level": 98,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 1,
+      "star": 4
+    },
+    "options": {}
+  },
+  {
+    "id": 24915933,
+    "name": "Máy tính bảng ipad học online tốt",
+    "category_path": "may-tinh-bang-ipad-hoc-online-tot-24915933.html",
+    "image": "https://media3.scdn.vn/img4/2021/12_18/ep741Cc4Jhma8Jot7uOb_simg_de2fe0_250x250_maxb.jpg",
+    "default_price_min": 1400000,
+    "default_price_max": 2900000,
+    "sale_price_min": 1400000,
+    "sale_price_max": 2900000,
+    "sold": 13,
+    "discount_app": 2,
+    "seller_admin_id": 709687,
+    "sku_user": "mini111",
+    "product_type": 23,
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 709687,
+      "name": "dienthoaire333",
+      "status": 2,
+      "ware_house_region_name": "Quảng Ngãi",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {},
+    "options": {}
+  },
+  {
+    "id": 37468433,
+    "name": "[Tặng bao da] Máy tính bảng ipad 2 Quốc tế chính hãng bảo hành 6 tháng 1 đổi 1 trong 30 ngày hỗ trợ cài sẵn các ứng dụng học tập giải trí",
+    "category_path": "tang-bao-da-may-tinh-bang-ipad-2-quoc-te-chinh-hang-bao-hanh-6-thang-1-doi-1-trong-30-ngay-ho-tro-cai-san-cac-ung-dung-hoc-tap-giai-tri-37468433.html",
+    "image": "https://media3.scdn.vn/img4/2020/11_19/WhpshEKrktFUeiJZLzNC_simg_de2fe0_250x250_maxb.png",
+    "default_price_min": 1490000,
+    "default_price_max": 2850000,
+    "sale_price_min": 1460000,
+    "sale_price_max": 2793000,
+    "sale_percent": 3,
+    "sold": 4,
+    "has_video": true,
+    "seller_admin_id": 662008,
+    "sku_user": "ipad_2",
+    "product_type": 23,
+    "active_event_frame": "sale_event",
+    "status_new": 2,
+    "stock_status": 1,
+    "search_feed_type": "SKU",
+    "shop": {
+      "id": 662008,
+      "name": "Vmobile1416",
+      "status": 2,
+      "type": 1,
+      "ware_house_region_name": "HN",
+      "badge_urls": {
+        "shop_plus": "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png"
+      }
+    },
+    "rated": {
+      "total": 2,
+      "star": 5
+    },
+    "options": {},
+    "package_discount": [
+      {
+        "position": "top",
+        "type": "sale_event",
+        "icon": "https://media3.scdn.vn/img4/2022/05_04/kmdXhROFpxHROppDRyHU.png"
+      },
+      {
+        "position": "bottom",
+        "type": "instant_shipping",
+        "text": "Hoả tốc",
+        "text_color": "#449460",
+        "bg_color": "#f5fbf7",
+        "icon": "https://media3.scdn.vn/img4/2022/04_14/P8X20So6YTrWe466Xr7v.png"
+      }
+    ]
+  }
+]
