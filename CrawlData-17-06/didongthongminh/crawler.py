@@ -18,7 +18,7 @@ if __name__ == '__main__':
     service = Service(executable_path="D:\THDL\chromedriver.exe")
     driver = webdriver.Chrome(service=service, options=options)
 
-    urls = []
+    urls = ['https://didongthongminh.vn/iphone-11-128gb-chinh-hang-vn-a-phien-ban-hop-moi']
     products = []
     apple_categories = {
         'iphone': 'https://didongthongminh.vn/iphone'
@@ -43,36 +43,39 @@ if __name__ == '__main__':
         colors = []
         prices = [] 
 
-        name = driver.find_element(By.CLASS_NAME, 'pull-left').get_attribute('innerHTML')
-        product['name'] = name
-        product['url'] = url
+        roms = []
+        for rom in driver.find_elements(By.CLASS_NAME, 'item_same'):
+            roms.append(rom.get_attribute('href'))
 
-        products_type = driver.find_element(By.CLASS_NAME, 'products_type')
-        p = products_type.find_elements(By.TAG_NAME, 'p')
-        for i in p:
-            span = i.find_elements(By.TAG_NAME, 'span')
-            colors.append(span[0].get_attribute('innerHTML'))
-            prices.append(span[0].get_attribute('innerHTML'))
-
-        product = {}
-       
-        
-        for j in driver.find_elements(By.CLASS_NAME, 'tr-0'):
-            td = j.find_elements(By.TAG_NAME, 'td')
-            attribute = td[0].get_attribute('innerHTML')
-            value = td[1].get_attribute('innerHTML')
-            product[attribute] = value
-        for j in driver.find_elements(By.CLASS_NAME, 'tr-1'):
-            td = j.find_elements(By.TAG_NAME, 'td')
-            attribute = td[0].get_attribute('innerHTML')
-            value = td[1].get_attribute('innerHTML')
-            product[attribute] = value
-        for index in range(0,len(colors)):
-            _product = product.copy()
-            _product['color'] = colors[index]
-            _product['price'] = prices[index]
-            _product['time'] = date
-            products.append(_product)
+        for rom in roms:
+            driver.get(rom)
+            time.sleep(2)
+            name = driver.find_element(By.CLASS_NAME, 'pull-left').get_attribute('innerHTML')
+            product['name'] = name
+            product['url'] = rom
+            products_type = driver.find_element(By.CLASS_NAME, 'products_type')
+            p = products_type.find_elements(By.TAG_NAME, 'p')
+            for i in p:
+                span = i.find_elements(By.TAG_NAME, 'span')
+                colors.append(span[0].get_attribute('innerHTML'))
+                prices.append(span[1].get_attribute('innerHTML'))
+            
+            for j in driver.find_elements(By.CLASS_NAME, 'tr-0'):
+                td = j.find_elements(By.TAG_NAME, 'td')
+                attribute = td[0].get_attribute('innerHTML')
+                value = td[1].get_attribute('innerHTML')
+                product[attribute] = value
+            for j in driver.find_elements(By.CLASS_NAME, 'tr-1'):
+                td = j.find_elements(By.TAG_NAME, 'td')
+                attribute = td[0].get_attribute('innerHTML')
+                value = td[1].get_attribute('innerHTML')
+                product[attribute] = value
+            for index in range(0,len(colors)):
+                _product = product.copy()
+                _product['color'] = colors[index]
+                _product['price'] = prices[index]
+                _product['time'] = date
+                products.append(_product)
     print(products)
     with open('D:\THDL\Data-Integration-20212\CrawlData-17-06\didongthongminh\didongthongminh.json', 'w') as f:
         f.write(json.dumps(products))
