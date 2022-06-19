@@ -10,7 +10,7 @@ class SchemaMatchingSystem():
         self.levenshtein = Levenshtein()
         self.mapping_columns =  {
             "name": ["model", "name", "Tên"],
-            "url": ["url", "short-link", "link"],
+            "url": ["url", "short-link", "link", "short_url"],
             "cpu": ["chipset", "Bộ xử lý trung tâm", "chip_set", "chip", "chip xử lý", "Chipset (hãng SX CPU)"],
             "os": ["os", "hệ điều hành"],
             "gpu": ["Chip đồ họa", "gpu", "chip_do_hoa"],
