@@ -74,4 +74,4 @@ class SchemaMatchingSystem():
             matched_col.append(result[key])
             source_col.append(key)
         
-        return matched_col, source_col
+        return (matched_col, source_col)
