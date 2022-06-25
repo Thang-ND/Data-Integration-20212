@@ -1,0 +1,6 @@
+Họp nhóm định kì hàng tuần (23/06/2022)
+Báo cáo tiến độ công việc hoàn thành.
+Thảo luận các phương pháp phân chia công việc tiếp theo.
+- Thắng, Hoàng Sơn: Data Matching
+- Thái Sơn: Làm báo cáo
+- Thanh : xây dựng hệ thống demo. 
