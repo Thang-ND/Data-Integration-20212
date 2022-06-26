@@ -16,7 +16,7 @@ public class AppleProduct {
     String cpu;
     String os;
     String gpu;
-    Integer price;
+    String price;
     String connect;
     String screentype;
     String frontCamera;

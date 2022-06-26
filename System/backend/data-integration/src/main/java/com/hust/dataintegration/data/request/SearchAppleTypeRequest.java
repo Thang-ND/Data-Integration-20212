@@ -7,8 +7,8 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class SearchAppleTypeRequest {
     String name;
-    Integer ram;
-    Integer rom;
+    String ram;
+    String rom;
     String color;
     String cpu;
 }
