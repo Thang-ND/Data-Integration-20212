@@ -1,4 +1,4 @@
-package com.hust.dataintegration.data.model;
+package model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -32,6 +32,4 @@ public class AppleProduct {
     String sim;
     String security;
     String material;
-    String img="https://ecdn.game4v.com/g4v-content/uploads/2021/09/15122647/game4V-iPhone13-2-1631683607-83.jpg";
-
 }
