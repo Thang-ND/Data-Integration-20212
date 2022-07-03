@@ -28,7 +28,7 @@ const FooterPage = () => {
                   <p href="#!">Đặng Thái Sơn</p>
                 </li>
                 <li className="list-unstyled">
-                  <p href="#!">Nguyễn Hoàng </p>
+                  <p href="#!">Nguyễn Hoàng Sơn</p>
                 </li>
               </ul>
             </MDBCol>

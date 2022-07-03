@@ -6,6 +6,7 @@ import com.hust.dataintegration.data.model.AppleProduct;
 import com.hust.dataintegration.data.model.AppleProductType;
 import com.hust.dataintegration.data.request.SearchAppleTypeRequest;
 import lombok.SneakyThrows;
+import org.apache.commons.lang3.StringUtils;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
@@ -42,8 +43,15 @@ public class EsRepository implements IEsRepository {
     public List<AppleProductType> searchAppleType(SearchAppleTypeRequest request) {
         BoolQueryBuilder mainQuery = QueryBuilders.boolQuery();
 
-        if (isNotEmpty(request.getName()))
-            addBoolFilter(mainQuery, matchQuery("name", request.getName()));
+
+        if (isNotEmpty(request.getName())) {
+            List<String> nameStr = List.of(request.getName().split(" "));
+
+            for (String name : nameStr) {
+                addBoolFilter(mainQuery, matchQuery("name", name));
+            }
+        }
+
 
         if (isNotEmpty(request.getColor()))
             addBoolFilter(mainQuery, matchQuery("color", request.getColor()));
@@ -59,6 +67,7 @@ public class EsRepository implements IEsRepository {
 
         SearchSourceBuilder builder = new SearchSourceBuilder();
         builder.query(mainQuery);
+        builder.size(5000);
 
         SearchRequest searchRequest = new SearchRequest().indices("apple_product_type");
         searchRequest.searchType(SearchType.DFS_QUERY_THEN_FETCH);
@@ -89,7 +98,7 @@ public class EsRepository implements IEsRepository {
     public Map<String, Long> countByAppleTypeIds(List<String> appleTypeIds) {
         SearchSourceBuilder builder = new SearchSourceBuilder().size(0);
         builder.query(buildTermsQueryBuilder("product_type_id.keyword", appleTypeIds));
-        builder.aggregation(AggregationBuilders.terms("product").field("product_type_id.keyword"));
+        builder.aggregation(AggregationBuilders.terms("product").field("product_type_id.keyword").size(1000));
         SearchRequest searchRequest = new SearchRequest().indices("apple_product");
         searchRequest.searchType(SearchType.DFS_QUERY_THEN_FETCH);
         searchRequest.source(builder);
@@ -115,6 +124,7 @@ public class EsRepository implements IEsRepository {
     public List<AppleProduct> searchAppleProduct(Integer appleTypeId) {
         SearchSourceBuilder builder = new SearchSourceBuilder();
         builder.query(buildTermQueryBuilder("product_type_id.keyword", appleTypeId));
+        builder.size(5000);
 
         SearchRequest searchRequest = new SearchRequest().indices("apple_product");
         searchRequest.searchType(SearchType.DFS_QUERY_THEN_FETCH);
@@ -128,6 +138,7 @@ public class EsRepository implements IEsRepository {
         for (SearchHit searchHit : searchHits) {
             String source = searchHit.getSourceAsString();
             AppleProduct articleResponse = this.objectMapper.readValue(source, AppleProduct.class);
+            articleResponse.setImg(mapImg(articleResponse.getName()));
             articleResponses.add(articleResponse);
         }
         return articleResponses;
@@ -139,8 +150,61 @@ public class EsRepository implements IEsRepository {
         for (SearchHit searchHit : searchHitArr) {
             String source = searchHit.getSourceAsString();
             AppleProductType articleResponse = this.objectMapper.readValue(source, AppleProductType.class);
+            articleResponse.setImg(mapImg(articleResponse.getName()));
             articleResponses.add(articleResponse);
         }
         return articleResponses;
+    }
+
+    private String mapImg(String name) {
+        String path = "http://localhost:8080/image/";
+        if (StringUtils.containsIgnoreCase(name, "iphone 13")
+                && (StringUtils.containsIgnoreCase(name, "pro") || StringUtils.containsIgnoreCase(name, "pro max")))
+            return path + "iphone_13_pro_max.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 13"))
+            return path + "iphone_13.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 12")
+                && (StringUtils.containsIgnoreCase(name, "pro") || StringUtils.containsIgnoreCase(name, "pro max")))
+            return path + "iphone_12_pro_max.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 12"))
+            return path + "iphone_12.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 11")
+                && (StringUtils.containsIgnoreCase(name, "pro") || StringUtils.containsIgnoreCase(name, "pro max")))
+            return path + "iphone_11_pro_max.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 11"))
+            return path + "iphone_11.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone x")
+                && (StringUtils.containsIgnoreCase(name, "xs") || StringUtils.containsIgnoreCase(name, "xs max")))
+            return path + "iphone_xs.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone x"))
+            return path + "iphone_x.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 8")
+                && (StringUtils.containsIgnoreCase(name, "s") || StringUtils.containsIgnoreCase(name, "plus")))
+            return path + "iphone_8_plus.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 8"))
+            return path + "iphone_8.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 7")
+                && (StringUtils.containsIgnoreCase(name, "s") || StringUtils.containsIgnoreCase(name, "plus")))
+            return path + "iphone_7_plus.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 7"))
+            return path + "iphone_7.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 6")
+                && (StringUtils.containsIgnoreCase(name, "s") || StringUtils.containsIgnoreCase(name, "plus")))
+            return path + "iphone_6_plus.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone 6"))
+            return path + "iphone_6.png";
+        else if (StringUtils.containsIgnoreCase(name, "iphone"))
+            return path + "iphone_13.png";
+        else if (StringUtils.containsIgnoreCase(name, "apple watch") && StringUtils.containsIgnoreCase(name, "series"))
+            return path + "apple_watch_series_6.png";
+        else if (StringUtils.containsIgnoreCase(name, "watch"))
+            return path + "apple_watch_se.png";
+        else if (StringUtils.containsIgnoreCase(name, "ipad") && StringUtils.containsIgnoreCase(name, "11"))
+            return path + "ipad_11_pro.png";
+        else if (StringUtils.containsIgnoreCase(name, "ipad") && StringUtils.containsIgnoreCase(name, "mini"))
+            return path + "ipad_mini.png";
+        else if (StringUtils.containsIgnoreCase(name, "ipad"))
+            return path + "ipad_air.png";
+        else return path + "apple.png";
     }
 }

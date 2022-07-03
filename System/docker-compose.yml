@@ -1,0 +1,38 @@
+version: '3.0'
+
+services:
+
+  elasticsearch-thdl:
+    container_name: elasticsearch-thdl
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.2
+    environment:
+      - xpack.security.enabled=false
+      - "discovery.type=single-node"
+      - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
+    network_mode: host
+
+
+  kibana-thdl:
+    container_name: kibana-thdl
+    image: docker.elastic.co/kibana/kibana:7.15.2
+    environment:
+      - ELASTICSEARCH_HOSTS=http://localhost:9200
+    network_mode: host
+    depends_on:
+      - elasticsearch-thdl
+
+  backend-thdl:
+    image: backend-thdl:v1.0.0
+    container_name: backend-thdl
+    expose:
+      - 8080
+    network_mode: host
+
+
+  frontend-thdl:
+    image: frontend-thdl:v1.0.0
+    container_name: frontend-thdl
+    expose:
+      - 3000
+    network_mode: host
+

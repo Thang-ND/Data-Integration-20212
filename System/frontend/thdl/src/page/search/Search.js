@@ -53,7 +53,7 @@ export default function Search() {
                 <p className="card-text"><span>Màu sắc:</span>{product.color}</p>
                 <p className="card-text"><span>CPU:</span>{product.cpu}</p>
                 <p className="card-text"><span>Số nơi bán:</span>{product.count}</p>
-                <Link to={"/detail/"+product.id}>
+                <Link to={"/detail/"+product.id} target="_blank">
                     <p className="btn btn-primary">Xem các sản phẩm</p>
                 </Link>
             </div>

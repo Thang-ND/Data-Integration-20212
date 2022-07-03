@@ -1,0 +1,1 @@
+docker build -t frontend-thdl:v1.0.0 .
