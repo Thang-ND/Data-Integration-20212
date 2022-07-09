@@ -67,7 +67,7 @@ class SchemaMatchingSystem():
                         res[colum] = key
         return res
 
-    def matchedCol(result: dict): 
+    def matchedCol(result): 
         matched_col = []
         source_col = []
         for key in result:
