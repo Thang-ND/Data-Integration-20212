@@ -37,7 +37,7 @@ def PreData(data):
              "APPLE WATCH SERIES 5", "APPLE WATCH SERIES 6", "APPLE WATCH S1", "APPLE WATCH S2", "APPLE WATCH S3",
              "APPLE WATCH S4", "APPLE WATCH S5", "APPLE WATCH S6", "APPLE WATCH S7", "APPLE WATCH SE", "APPLE SE",
              "MACBOOK PRO M1 PRO", "MACBOOK AIR M1", "MACBOOK PRO", "MACBOOK AIR", "MAC MINI", "MAC STUDIO"]
-    cpu = ["A15", "A14", "A13", "A12", "A11", "A10", "A9", "A8", "A7", "A6"]
+    CPU = ["A15", "A14", "A13", "A12", "A11", "A10", "A9", "A8", "A7", "A6"]
     color1 = ['Đen', 'Trắng', 'Tím', 'Đỏ', 'Xanh Lá', 'Xanh', 'Vàng', 'Xanh Dương', 'Than chì',
               'Hồng', 'Bạc', 'Xanh rêu', 'JetBlack', 'Xám', 'Xanh dương', 'Cam', 'Da Xanh',
               'Xanh Biển', 'Vàng hồng']
@@ -50,29 +50,29 @@ def PreData(data):
                 data[i]['name'] = model[j]
                 break
 
-        for j in range(len(cpu)):
-            if data[i]['Chipset (hãng SX CPU)'].find(cpu[j]) != -1:
-                data[i]['Chipset (hãng SX CPU)'] = cpu[j]
+        for j in range(len(CPU)):
+            if data[i]['cpu'].find(CPU[j]) != -1:
+                data[i]['cpu'] = CPU[j]
 
         for j in range(len(color2)):
             if data[i]['color'] == color1[j]:
                 data[i]['color'] = color2[j]
                 break
 
-        data[i]['RAM'] = re.sub(r'\D', '', data[i]['RAM'])
+        data[i]['ram'] = re.sub(r'\D', '', data[i]['ram'])
 
         data[i]['price'] = re.sub(r'\D', '', data[i]['price'])
 
-        data[i]['Bộ nhớ trong'] = data[i]['Bộ nhớ trong'].replace(" ", "")
+        data[i]['rom'] = data[i]['rom'].replace(" ", "")
 
-        if data[i]['RAM'] == '':
-            data[i]['RAM'] = "unknown"
+        if data[i]['ram'] == '':
+            data[i]['ram'] = "unknown"
 
-        if data[i]['Bộ nhớ trong'] == '':
-            data[i]['Bộ nhớ trong'] = "unknown"
+        if data[i]['rom'] == '':
+            data[i]['rom'] = "unknown"
 
-        if data[i]['Chipset (hãng SX CPU)'] == '':
-            data[i]['Chipset (hãng SX CPU)'] = "unknown"
+        if data[i]['cpu'] == '':
+            data[i]['cpu'] = "unknown"
 
 
 if __name__ == '__main__':
@@ -84,9 +84,9 @@ if __name__ == '__main__':
     with open("output.json", "w", encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-    df = pd.read_json('./output.json')
-    print(df.RAM.unique())
-    print(df['Bộ nhớ trong'].unique())
-    print(df.color.unique())
-    print(df.name.unique())
-    print(df['Chipset (hãng SX CPU)'].unique())
+    # df = pd.read_json('./output.json')
+    # print(df.RAM.unique())
+    # print(df['Bộ nhớ trong'].unique())
+    # print(df.color.unique())
+    # print(df.name.unique())
+    # print(df['Chipset (hãng SX CPU)'].unique())
