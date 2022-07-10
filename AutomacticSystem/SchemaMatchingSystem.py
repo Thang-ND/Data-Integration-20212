@@ -43,7 +43,7 @@ class SchemaMatchingSystem():
     
 
     def similarity_score(self, x, y):
-        x = x.lower().strip()
+        x = str(x).lower().strip()
         y = y.lower().strip()
         return (len(x) + len(y) - self.levenshtein.distance(x, y)) / (len(x) + len(y))
 
