@@ -15,6 +15,8 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -121,7 +123,7 @@ public class ConvertData {
         BufferedWriter bw = null;
         FileWriter fw = null;
 
-        File file = new File("/home/thanhnv/Desktop/e/Data-Integration-20212/System/convert-data-es/src/main/resources/data/productType.jl");
+        File file = new File("/home/thanhnv/Desktop/thdl/Data-Integration-20212/System/convert-data-es/src/main/resources/data/productType.jl");
 
         // if file doesnt exists, then create it
         if (!file.exists()) {
@@ -134,7 +136,8 @@ public class ConvertData {
 
         for(AppleProductType appleProductType : appleProductTypeList){
             String json = objectMapper.writeValueAsString(appleProductType);
-            bw.write("{\"index\": {\"_index\": \"apple_product_type\"}}\n");
+
+            bw.write("{\"index\": {\"_index\": \"apple_product_type\", \"_id\":\""+ appleProductType.getId() +"\"}}\n");
             bw.write(json+"\n");
         }
 
@@ -142,7 +145,7 @@ public class ConvertData {
         fw.close();
 
 
-        file = new File("/home/thanhnv/Desktop/e/Data-Integration-20212/System/convert-data-es/src/main/resources/data/product.jl");
+        file = new File("/home/thanhnv/Desktop/thdl/Data-Integration-20212/System/convert-data-es/src/main/resources/data/product.jl");
 
         // if file doesnt exists, then create it
         if (!file.exists()) {
@@ -155,7 +158,8 @@ public class ConvertData {
 
         for(AppleProduct appleProduct : appleProducts){
             String json = objectMapper.writeValueAsString(appleProduct);
-            bw.write("{\"index\": {\"_index\": \"apple_product\"}}\n");
+            String encrypt = encrypt(appleProduct.getUrl()+appleProduct.getColor());
+            bw.write("{\"index\": {\"_index\": \"apple_product\", \"_id\":\""+ encrypt +"\"}}\n");
             bw.write(json+"\n");
         }
 
@@ -168,6 +172,47 @@ public class ConvertData {
                 .collect(Collectors.joining(System.lineSeparator()));
 
         return content;
+    }
+
+    private static MessageDigest sha256;
+
+    // generated password is stored encrypted (using also user name for hashing)
+    public synchronized static String encrypt(String hash) {
+        try {
+
+            StringBuilder builder = new StringBuilder();
+            builder.append(hash);
+
+            // first time , encrypt user name , password and static key
+            String encryptedCredentials = encryptionIterator(builder.toString());
+            return encryptedCredentials;
+        }
+
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return "";
+    }
+
+    private static String encryptionIterator(String content) {
+        try {
+            sha256 = MessageDigest.getInstance("SHA-256");
+            // append the static key to each iteration
+            byte[] passBytes = (content).getBytes();
+            sha256.reset();
+            byte[] digested = sha256.digest(passBytes);
+            StringBuffer sb = new StringBuffer();
+            for (int i = 0; i < digested.length; i++) {
+                sb.append(Integer.toHexString(0xff & digested[i]));
+            }
+
+            return sb.toString();
+        } catch (NoSuchAlgorithmException ex) {
+            ex.printStackTrace();
+        }
+
+        return "";
     }
 
     public static void main(String[] args) {

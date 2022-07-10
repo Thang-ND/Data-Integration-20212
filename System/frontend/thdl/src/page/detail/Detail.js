@@ -15,7 +15,7 @@ export default function Detail() {
     }, []);
 
     const listItems = products.map((product) =>
-        <div className="card" style={{width: "19%", marginLeft: 10, marginRight: 10, marginTop: 20, marginBottom: 20}}>
+        <div className="card" style={{width: "18%", marginLeft: 10, marginRight: 10, marginTop: 20, marginBottom: 20}}>
             <img className="card-img-top" src={product.img} alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title">{product.name}</h5>
