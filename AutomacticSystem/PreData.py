@@ -51,28 +51,28 @@ def PreData(data):
                 break
 
         for j in range(len(CPU)):
-            if data[i]['cpu'].find(CPU[j]) != -1:
-                data[i]['cpu'] = CPU[j]
+            if data[i]['Chipset (hãng SX CPU)'].find(CPU[j]) != -1:
+                data[i]['Chipset (hãng SX CPU)'] = CPU[j]
 
-        for j in range(len(color2)):
+        for j in range(len(color1)):
             if data[i]['color'] == color1[j]:
                 data[i]['color'] = color2[j]
                 break
 
-        data[i]['ram'] = re.sub(r'\D', '', data[i]['ram'])
+        data[i]['RAM'] = re.sub(r'\D', '', data[i]['ram'])
 
         data[i]['price'] = re.sub(r'\D', '', data[i]['price'])
 
-        data[i]['rom'] = data[i]['rom'].replace(" ", "")
+        data[i]['Bộ nhớ trong'] = data[i]['rom'].replace(" ", "")
 
-        if data[i]['ram'] == '':
-            data[i]['ram'] = "unknown"
+        if data[i]['RAM'] == '':
+            data[i]['RAM'] = "unknown"
 
-        if data[i]['rom'] == '':
-            data[i]['rom'] = "unknown"
+        if data[i]['Bộ nhớ trong'] == '':
+            data[i]['Bộ nhớ trong'] = "unknown"
 
-        if data[i]['cpu'] == '':
-            data[i]['cpu'] = "unknown"
+        if data[i]['Chipset (hãng SX CPU)'] == '':
+            data[i]['Chipset (hãng SX CPU)'] = "unknown"
 
 
 if __name__ == '__main__':
