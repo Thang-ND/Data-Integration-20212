@@ -157,7 +157,7 @@ public class EsRepository implements IEsRepository {
     }
 
     private String mapImg(String name) {
-        String path = "http://localhost:8080/image/";
+        String path = "http://localhost:8082/image/";
         if (StringUtils.containsIgnoreCase(name, "iphone 13")
                 && (StringUtils.containsIgnoreCase(name, "pro") || StringUtils.containsIgnoreCase(name, "pro max")))
             return path + "iphone_13_pro_max.png";

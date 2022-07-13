@@ -14,7 +14,7 @@ export async function search(data) {
     };
 
     return new Promise(async resolve => {
-        await axios.post("http://127.0.0.1:8080/api/search", bodyParameters, headers)
+        await axios.post("http://127.0.0.1:8082/api/search", bodyParameters, headers)
             .then(response => {
                 // alert(JSON.stringify(response.data));
                 return resolve({
@@ -41,7 +41,7 @@ export async function detail(id) {
     };
 
     return new Promise(async resolve => {
-        await axios.get("http://127.0.0.1:8080/api/search/"+id, headers)
+        await axios.get("http://127.0.0.1:8082/api/search/"+id, headers)
             .then(response => {
                 return resolve({
                     success: true,

@@ -34,8 +34,11 @@ def run():
         driver.get(apple_categories[category])
         x_path = '/html/body/div[6]/div/div[2]/div[2]/div/div/div[5]/form/a'
         for i in range(0,3):
-            driver.find_element(By.XPATH, x_path).click()
-            time.sleep(2)
+            try:
+                driver.find_element(By.XPATH, x_path).click()
+            except:
+                continue
+            # time.sleep(2)
 
         items = driver.find_element(By.ID,'List_Product').find_elements(By.CLASS_NAME, 'product-info-top')
         for item in items:
@@ -94,6 +97,6 @@ def run():
 
 if __name__ == '__main__':
     # run()
-    schedule.every(10).minutes.do(run())
+    schedule.every(10).minutes.do(run)
     while True:
         schedule.run_pending()

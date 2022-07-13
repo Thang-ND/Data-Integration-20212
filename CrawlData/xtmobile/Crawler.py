@@ -27,7 +27,10 @@ if __name__ == '__main__':
         driver.get(apple_categories[category])
         x_path = '/html/body/div[6]/div/div[2]/div[2]/div/div/div[5]/form/a'
         for i in range(0,3):
-            driver.find_element(By.XPATH, x_path).click()
+            try:
+                driver.find_element(By.XPATH, x_path).click()
+            except:
+                continue
             time.sleep(2)
         
         items = driver.find_element(By.ID,'List_Product').find_elements(By.CLASS_NAME, 'product-info-top')
@@ -77,8 +80,8 @@ if __name__ == '__main__':
             _product['price'] = price[i]
             _product['date'] = date
             products.append(_product)
-            
-    with open('/home/sonnh/Documents/THDL/Data-Integration-20212/CrawlData/xtmobile/Data.json', 'w') as f:
+
+    with open('/home/thanhnv/Desktop/thdl/Data-Integration-20212/CrawlData/xtmobile/Data1.json', 'w') as f:
         f.write(json.dumps(products))
         f.close()
     driver.quit()

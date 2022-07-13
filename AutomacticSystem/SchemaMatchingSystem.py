@@ -63,7 +63,7 @@ class SchemaMatchingSystem():
                 for match in listMatching:
                     score = self.similarity_score(colum, match)
                     if(score > threshold):
-                        print("{0:20}\t{0:20}\t".format(colum, match) + str(score))
+                        # print("{0:20}\t{0:20}\t".format(colum, match) + str(score))
                         res[colum] = key
         return res
 

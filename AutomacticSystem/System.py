@@ -8,8 +8,8 @@ from kafka import KafkaConsumer
 import requests
 from elasticsearch import Elasticsearch
 import hashlib
-import schedule
-import time
+# import schedule
+# import time
 
 
 def encrypt_string(hash_string):
@@ -105,6 +105,8 @@ def matching(df, smSystem):
     matched_col, source_col = matchedCol(res)
     df_tmp = df[source_col].rename(columns=res)
     data = pd.DataFrame(columns=smSystem.getTargetSchema())
+    # print(data.shape)
+    # print(df_tmp.shape)
     data[matched_col] = df_tmp[matched_col]
     return data
 
@@ -127,21 +129,37 @@ def difference_score(x, y):
 
 
 def newDataRecord(TYPE_PRODUCT, record):
+    id = str(record["url"])+str(record["color"].upper())
+# print(id)
+    enid = encrypt_string(id)
     for i in range(len(TYPE_PRODUCT)):
-        name = levenshtein_score(TYPE_PRODUCT[i]['name'], record['name'])
-        cpu = difference_score(TYPE_PRODUCT[i]['cpu'], record['cpu'])
-        ram = difference_score(TYPE_PRODUCT[i]['ram'], record['ram'])
-        rom = difference_score(TYPE_PRODUCT[i]['rom'], record['rom'])
-        color = difference_score(TYPE_PRODUCT[i]['color'], record['color'])
+        # print(len(TYPE_PRODUCT))
+        # if record["url"] =="https://www.xtmobile.vn/iphone-13-128gb-cu-likenew":
+            # print("day roi")
+            # print(record)
+        record['ram'] =  record['ram'].upper().replace("GB", "")
+        record['rom'] =  record['rom'].upper().replace("GB", "")
+        name = levenshtein_score(TYPE_PRODUCT[i]['name'].upper(), record['name'].upper())
+        cpu = difference_score(TYPE_PRODUCT[i]['cpu'].upper(), record['cpu'].upper())
+        ram = difference_score(TYPE_PRODUCT[i]['ram'].upper(), record['ram'].upper())
+        rom = difference_score(TYPE_PRODUCT[i]['rom'].upper(), record['rom'].upper())
+        color = difference_score(TYPE_PRODUCT[i]['color'].upper(), record['color'].upper())
         score = 0.5 * name + 0.05 * cpu + 0.2 * ram + 0.2 * rom + 0.05 * color
+        # print(score)
+        # print(enid)
+
         if (score > 0.95):
             record["product_type_id"] = TYPE_PRODUCT[i]["id"]
-            insertEs(record, "apple_product", encrypt_string(record["url"]+record["color"]))
-        else:
-            newType = {"id":len(TYPE_PRODUCT),"name":record["name"],"ram":record["ram"],"rom":record["rom"],"color":record["color"],"cpu":record["cpu"]}
-            insertEs(newType, "apple_product_type", newType["id"])
-            record["product_type_id"] = newType["id"]
-            insertEs(record, "apple_product", encrypt_string(record["url"]+record["color"]))
+            insertEs(record, "apple_product", enid)
+            print(TYPE_PRODUCT[i]["id"])
+            print(record)
+            return 1
+
+    newType = {"id":len(TYPE_PRODUCT),"name":record["name"],"ram":record["ram"],"rom":record["rom"],"color":record["color"],"cpu":record["cpu"]}
+    insertEs(newType, "apple_product_type", newType["id"])
+    record["product_type_id"] = newType["id"]
+    insertEs(record, "apple_product", enid)
+    return 2
 
 
 # def newDataRecord(TYPE_PRODUCT, record):
@@ -169,8 +187,39 @@ def getMessFromKafka():
     consumer = KafkaConsumer (topicName, group_id ='thdl',bootstrap_servers = bootstrap_servers, value_deserializer=lambda m: json.loads(m.decode('utf-8')))
     data = []
     for message in consumer:
-        # print(message)
-        data.append(message.value)
+        item = message.value
+        a_json = json.dumps(item)
+        schemaMatchingSystem = SchemaMatchingSystem()
+
+        headers = list(item.keys())
+        values = [list(item.values())]
+
+        df = pd.DataFrame(values, columns=headers)
+
+        # print(df['Kiểu màn hình'])
+        if "Kiểu màn hình" in df:
+            del df['Kiểu màn hình']
+        result = matching(df, schemaMatchingSystem)
+
+        schemaMatematchingItem = result.to_json()
+        data = json.loads(schemaMatematchingItem)
+
+        newResultTmp = {}
+        for itm in data:
+            values = json.loads(result[itm].to_json())
+
+            for idx in values:
+                if idx not in newResultTmp:
+                    newResultTmp[idx] = {}
+                    newResultTmp[idx][itm] = values[idx]
+                else:
+                    newResultTmp[idx][itm] = values[idx]
+
+        newResult = [newResultTmp[itm] for itm in newResultTmp]
+        # print(newResult)
+        preItem = PreData(newResult[0])
+        TYPE_PRODUCT = getProductTypeFromElasticsearch()
+        newDataRecord(TYPE_PRODUCT, preItem)
     consumer.close()
     return data
 
@@ -183,7 +232,7 @@ def getProductTypeFromElasticsearch():
         # print(res['_source'])
         res = es.search(index="apple_product_type", query ={
             'match_all' : {}
-        })
+        }, size=1000)
 
         TYPE_PRODUCT = []
 
@@ -207,20 +256,21 @@ def insertEs(doc, index, id):
 
 
 
-def pipeline():
-    data = getMessFromKafka()
-    for item in data:
-        a_json = json.loads(item)
-        schemaMatchingSystem = SchemaMatchingSystem()
-        df = pd.DataFrame.from_dict(a_json, orient="index")
-        # df2 = df.drop(["Kiểu màn hình"], axis=1)
-        result = matching(df, schemaMatchingSystem)
-        schemaMatematchingItem = result.to_json()
-        a_json = json.loads(item)
-        print("Type:", type(a_json))
-        preItem = PreData(a_json)
-        TYPE_PRODUCT = getProductTypeFromElasticsearch()
-        newDataRecord(TYPE_PRODUCT, preItem)
+# def pipeline():
+#     data = getMessFromKafka()
+#     for item in data:
+#         print(item)
+#         a_json = json.loads(item)
+#         schemaMatchingSystem = SchemaMatchingSystem()
+#         df = pd.DataFrame.from_dict(a_json, orient="index")
+#         df2 = df.drop(["Kiểu màn hình"], axis=1)
+#         result = matching(df2, schemaMatchingSystem)
+#         schemaMatematchingItem = result.to_json()
+#         a_json = json.loads(schemaMatematchingItem)
+#         a_json = json.dumps(a_json)
+#         preItem = PreData(a_json)
+#         TYPE_PRODUCT = getProductTypeFromElasticsearch()
+#         newDataRecord(TYPE_PRODUCT, preItem)
 
 # def demo():
 #     item = '{"name": "iPhone 11 64GB Chính hãng (VN/A)", "url": "https://www.xtmobile.vn/iphone-11-64gb-vna", "Công nghệ màn hình": "Liquid Retina LCD", "Độ phân giải": "12 MP", "Màn hình rộng": "6.1", "Mặt kính cảm ứng": "Kính oleophobic coating (ion cường lực)", "Quay phim": "Quay phim 4K 2160p@60fps", "Đèn Flash": "4 đèn LED (2 tông màu)", "Chụp ảnh nâng cao": "Chụp ảnh xóa phông, Lấy nét dự đoán, Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama, Chống rung quang học (OIS), Night Mode, Zoom quang 2x, Chụp ảnh trong khi quay video", "Videocall": "Có", "Tính năng khác": "Selfie ngược sáng HDR, Camera góc rộng, Quay video 4K, Quay video slow motion, Nhận diện khuôn mặt, Chụp ảnh liên tục", "Hệ điều hành": "iOS", "Chipset (hãng SX CPU)": "Apple A13 Bionic 6 nhân", "cpu": "", "Chip đồ họa (GPU)": "Apple GPU 4 nhân", "ram": "4 GB", "rom": "64 GB", "Thẻ nhớ ngoài": "Không", "Mạng di động": "3G, 4G LTE Cat 16", "SIM": "1 Nano SIM", "Wifi": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, hotspot", "GPS": "A-GPS, GLONASS, GALILEO, QZSS", "Bluetooth": "5.0, A2DP, LE", "Cổng kết nối/sạc": "Lightning", "Jack tai nghe": "Không", "Kết nối khác": "NFC, OTG", "Thiết kế": "Nguyên khối", "Chất liệu": "Khung nhôm 7000 series + mặt kính cường lực", "Kích thước": "Dài 150.9 mm - Ngang 75.7 mm - Dày 8.3 mm", "Trọng lượng": "194 g", "Dung lượng pin": "3110 mAh", "Loại pin": "Pin chuẩn Li-Ion", "Công nghệ pin": "", "Bảo mật nâng cao": "Nhận diện khuôn mặt Face ID", "Tính năng đặc biệt": "Haptic Touch, Siri, Animoji, Memoji, Chống nước IP68, Sạc nhanh, Sạc không dây", "Ghi âm": "Có, microphone chuyên dụng chống ồn", "Radio": "Không", "color": "Xanh Lá", "price": "11.490.000đ", "date": "2022-7-10"}'
@@ -238,8 +288,11 @@ def pipeline():
 
 
 if __name__ == '__main__':
-    schedule.every(10).minutes.do(run())
-    while True:
-        schedule.run_pending()
+    # schedule.every(10).minutes.do(run())
+    # while True:
+    # pipeline()
+    getMessFromKafka()
+    # print(encrypt_string("https://www.xtmobile.vn/iphone-13-pro-128gb"+"YELLOW"))
+        # schedule.run_pending()
 
 

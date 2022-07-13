@@ -158,7 +158,7 @@ public class ConvertData {
 
         for(AppleProduct appleProduct : appleProducts){
             String json = objectMapper.writeValueAsString(appleProduct);
-            String encrypt = encrypt(appleProduct.getUrl()+appleProduct.getColor());
+            String encrypt = encrypt(appleProduct.getUrl()+appleProduct.getColor().toUpperCase());
             bw.write("{\"index\": {\"_index\": \"apple_product\", \"_id\":\""+ encrypt +"\"}}\n");
             bw.write(json+"\n");
         }

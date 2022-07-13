@@ -25,7 +25,7 @@ services:
     image: backend-thdl:v1.0.0
     container_name: backend-thdl
     expose:
-      - 8080
+      - 8082
     network_mode: host
 
 
